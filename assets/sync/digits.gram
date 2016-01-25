@@ -1,0 +1,15 @@
+#JSGF V1.0;
+
+grammar utterance;
+
+public <utterance> = coi;
+
+<statement> = <opening>* <selbri> <sumti>*;
+
+<opening> = <sumti> cu*;
+
+<sumti> = mi | do | <brivla>;
+
+<selbri> = <brivla>+;
+
+<brivla> = klama | viska | pencu | zunle | pritu;

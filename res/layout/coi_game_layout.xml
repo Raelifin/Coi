@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	
+	<LinearLayout android:id="@+id/scene2Holder"
+		android:layout_height="fill_parent" 
+		android:layout_width="fill_parent" 
+		android:gravity="center_horizontal"
+        android:orientation="horizontal"
+		android:layout_weight="2"/>
+
+	<com.raelifin.coi.DialogueTextView android:id="@+id/mainDialogueView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+		
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center_vertical"
+		android:background="@android:color/darker_gray"
+		android:layout_weight="0">
+		
+		<Button android:text="←"
+			android:textSize="25sp" android:textStyle="bold" android:id="@+id/LeftButton" android:layout_weight="1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="↑"
+			android:textSize="25sp" android:textStyle="bold" android:id="@+id/ForwardButton" android:layout_weight="1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="→"
+			android:textSize="25sp" android:textStyle="bold" android:id="@+id/RightButton" android:layout_weight="1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<ImageButton android:src="@drawable/bacru" android:id="@+id/SpeakButton" android:layout_weight="2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+			
+	</LinearLayout>
+</LinearLayout>
