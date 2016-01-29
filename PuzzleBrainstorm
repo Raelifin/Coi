@@ -1,0 +1,48 @@
+Level 1:
+A face looms in front. Moving into it elicits a simple "coi". Speaking to it also elicits a coi, but a different face.
+Turning either direction points the player down the hall. At the end of the hall is a goalface. Touching it makes it frown. Saying "coi" to it makes it happy and teleports the player to level2.
+
+Level 2:
+Player starts down a hall. Nothing is behind them. Ahead of them, at the turn is a face. Touching the face makes it frown. Saying "coi" to it makes it say "ko klama fu le blanu" with "blanu" colored blue.
+The hall continues to an intersection. There is a blue path, a green path, and a red path. All paths have turns. Red and green have nothing. The blue path has a goal face that frowns when touched and smiles upon hearing "coi", teleporting the player to level 3.
+
+Level 3:
+Similar to level 2. The face at the end of the first hall says "ko klama fu le crino" with "crino" in green. There is another intersection with the same color scheme in different directions. Red and blue are dead-ends. Green has goal face that looks different. Upon being touched it frowns and says "ko cusku zo coi". If the player says "coi" it says "ko cusku zo crino". If the player says "crino" it smiles, says ".uo" and teleports the player to level 4.
+
+Level 4:
+Four faces surround the player from four cardinal directions. These faces each have a color. The player starts looking at the white face, but there are also blue, green, and red faces.
+White:
+ (touch): "ko cusku zo coi"
+ "coi": "coi .i ko cusku zo coi le blanu flira"
+ "blabi": "coi .i mi blabi"
+ "blanu": "ko cusku zo coi le blanu flira"
+ "crino": "mi na crino"
+ "xunre": "mi na xunre"
+ 
+Blue:
+ (touch): "coi"
+ "coi": "coi .i ko cusku zo blanu le crino flira"
+ "blanu": "coi .i mi blanu"
+ "crino": "ko cusku zo blanu le crino flira"
+ "xunre": "mi na xunre"
+ "blabi": "mi na blabi"
+ 
+Green:
+ (touch): frowns and says nothing
+ "coi": "coi"
+ "crino": "mi crino"
+ "blanu": ".i'e" and disappears, revealing a passage. At the end of the passage is a goal-face.
+ "xunre": "mi na xunre"
+ "blabi": "mi na blabi"
+ 
+Red:
+ (touch): "coi"
+ "coi": "coi"
+ "xunre": "coi .i mi xunre"
+ "crino": "mi na crino"
+ "blanu": "mi na blanu"
+ "blabi": "mi na blabi"
+ 
+Goal:
+ (touch): "ko cusku zo coi"
+ "coi": ".uo" and teleports the player to level 5
